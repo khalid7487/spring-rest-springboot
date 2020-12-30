@@ -1,0 +1,61 @@
+package com.khalid7487.springdemo;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TennisCoach implements Coach {
+
+	@Autowired
+	@Qualifier("randomFortuneService")
+	private FortuneService fortuneservice;
+	
+	//define a default constructor 
+    public TennisCoach() {
+		// TODO Auto-generated constructor stub
+    	System.out.println(">> TennisCoach: inside default constructor");
+	}
+    
+    //define a setter method
+//    @Autowired
+//    public void doSomeCrazyStuff(FortuneService theFortuneService) {
+//    	System.out.println(">> TenniseCoach: inside doSomeCrazyStuff() method");
+//    	fortuneservice = theFortuneService;
+//    }
+    
+    //define my init method
+    @PostConstruct
+    public void doMyStartupStuff() {
+    	System.out.println(">> TennisCoach: inside of  doMyStartupStuff()");
+    }
+    
+    //define my destroy method
+    @PreDestroy 
+    public void doMycleanStuff() {
+    	System.out.println(">> TenniseCoach:j inside of doMycleanStuff()");
+    }
+    
+/*	@Autowired
+	public TennisCoach(FortuneService theFortuneService) {
+		
+		fortuneservice = theFortuneService;
+	}
+*/	
+	
+	@Override
+	public String getDailyWorkout() {
+		return "Practice your backhand volley";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		
+		return fortuneservice.getFortune();
+	}
+
+}

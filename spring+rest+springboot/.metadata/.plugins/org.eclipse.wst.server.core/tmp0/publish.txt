@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Tue Dec 29 21:12:36 BDT 2020
+org.eclipse.jst.jee.server\:/binary\:E\:\\Java_programming\\spring+rest+springboot\\spring-mvc-demo1\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\Java_programming\\spring+rest+springboot\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\Java_programming\\spring+rest+springboot\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\Java_programming\\spring+rest+springboot\\spring-mvc-demo1\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar

@@ -1,0 +1,5 @@
+package com.khalid7487.springdemo.mvc;
+
+public class SillyController {
+
+}
