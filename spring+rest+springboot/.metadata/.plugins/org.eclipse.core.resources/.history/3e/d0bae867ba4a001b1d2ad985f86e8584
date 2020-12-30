@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Customer confirmation</title>
+</head>
+
+<body>
+ Customer :${customer.firstName } ${customer.lastName }
+</body>
+
+</html>
