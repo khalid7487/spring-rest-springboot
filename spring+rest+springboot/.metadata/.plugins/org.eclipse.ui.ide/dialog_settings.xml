@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Java_programming\spring-rest-springboot\spring+rest+springboot\S30L08 - Hibernate in Action (Part 2)"/>
+			<item value="F:\UDEMY-~1\SPRING~1\_TUTSG~1.COM\703F5~1.HIB\131HIB~1\S30L08~1"/>
+			<item value="E:\Java_programming\spring-rest-springboot\spring+rest+springboot\solution-code-hibernate-crud"/>
 			<item value="E:\Java_programming\spring+rest+springboot\solution-code-spring-mvc-config-files"/>
 			<item value="E:\Java_programming\spring+rest+springboot\Spring5"/>
 		</list>
