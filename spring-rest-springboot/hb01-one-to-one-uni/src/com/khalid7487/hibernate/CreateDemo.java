@@ -4,6 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import com.khalid7487.hibernate.entity.Instructor;
+import com.khalid7487.hibernate.entity.InstructorDetail;
 import com.khalid7487.hibernate.entity.Student;
 
 
@@ -23,12 +25,18 @@ public class CreateDemo {
 		try {
 			
 			//create the objects 
-			Instructor tempInstructor =
+/*			Instructor tempInstructor =
 					new Instructor("Khalid", "Hossen", "khalid7487@gmail.com");
 			InstructorDetail tempInstructorDerail = 
 					 new InstructorDetail(
 							 "http://www.luv2code.com/youtube",
-							 "Love to code !!!!");
+							 "Love to code !!!!");*/
+			Instructor tempInstructor =
+					new Instructor("Azmira Sultana ", "Mou", "mou7487@gmail.com");
+			InstructorDetail tempInstructorDerail = 
+					 new InstructorDetail(
+							 "http://www.mou.com/youtube",
+							 "Love to read !!!!");
 			
 			//associate the objects
 			tempInstructor.setInstructorDetail(tempInstructorDerail);
